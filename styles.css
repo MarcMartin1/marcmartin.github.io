@@ -407,7 +407,7 @@ i {
 }
 
 .wire_img {
-    padding: 1rem 2rem 2rem 1.2rem;
+    margin: auto;
 }
 
 .wire_img_flip {
@@ -425,47 +425,47 @@ i {
 }
 
 .style_img_colour {
-    padding: 1rem 2rem 1rem 2rem;
+    margin: auto;
     content: url(img/colorsmobilecat.png);
 }
 
 .style_img_typo {
-    padding: 1rem 2rem 1rem 2rem;
+    margin: auto;
     content: url(img/typomobilecat.png);
 }
 
 .style_img_but {
-    padding: 1rem 2rem 1rem 2rem;
+    margin: auto;
     content: url(img/buttonsmobilecat.png);
 }
 
 .style_img_colour_st {
-    padding: 1rem 2rem 1rem 2rem;
+    margin: auto;
     content: url(img/colorsmobilest.png);
 }
 
 .style_img_typo_st {
-    padding: 1rem 2rem 1rem 2rem;
+    margin: auto;
     content: url(img/typomobilrst.png);
 }
 
 .style_img_but_st {
-    padding: 1rem 2rem 1rem 2rem;
+    margin: auto;
     content: url(img/buttonsmobilest.png);
 }
 
 .style_img_colour_flip {
-    padding: 1rem 2rem 1rem 2rem;
+    margin: auto;
     content: url(img/colorsmobileconseq.png);
 }
 
 .style_img_typo_flip {
-    padding: 1rem 2rem 1rem 2rem;
+    margin: auto;
     content: url(img/typomobileconseq.png);
 }
 
 .style_img_but_flip {
-    padding: 1rem 2rem 1rem 2rem;
+    margin: auto;
     content: url(img/buttonsmobileconseq.png);
 }
 
@@ -553,7 +553,7 @@ i {
     padding: 1rem 0rem 0rem 0rem;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
 
     h1 {
         font-size: 3.8rem;
@@ -787,7 +787,8 @@ i {
     }
 
     .first_img {
-        float: right;
+        position: relative;
+        padding: 0rem 6rem 0rem 25rem;
     }
 
     .first_img_st {
