@@ -504,39 +504,43 @@ i {
 }
 
 .mobile_img1_cat {
-    padding: 2rem 2rem 2rem 2rem;
+    margin: auto;
+    padding-top: 2rem;
 }
 
 .mobile_img2_cat {
-    padding: 0rem 2rem 2rem 2rem;
+    margin: auto;
+    padding-top: 2rem;
 }
 
 .mobile_img3_cat {
-    padding: 0rem 2rem 2rem 2rem;
+    margin: auto;
+    padding-top: 2rem;
 }
 
 .mobile_img1_flip {
-    padding: 2rem 3rem 0rem 3rem;
+    margin: auto;
+    padding-top: 2rem;
 }
 
 .mobile_img2_flip {
-    padding: 0rem 3rem 0rem 3rem;
+    margin: auto;
 }
 
 .mobile_img3_flip {
-    padding: 0rem 0rem 0rem 0rem;
+    margin: auto;
 }
 
 .next_img {
     max-width: 70%;
     position: relative;
-    padding: 4rem 1rem 0rem 7rem;
+    margin: auto;
+    padding-top: 4rem;
 }
 
 .up_img {
-    max-width: 98%;
-    position: absolute;
-    padding: 4rem 2rem 0rem 17rem;
+    float: right;
+    padding: 4rem 1rem 0rem 0rem;
 }
 
 .photogrid {
@@ -937,13 +941,14 @@ i {
     }
 
     .next_img {
-        padding: 6rem 0rem 8rem 30.5rem;
+        max-width: 70%;
         position: relative;
+        margin: auto;
     }
 
     .up_img {
-        position: absolute;
-        padding: 6rem 6rem 6rem 60rem;
+        float: right;
+        padding-right: 10rem;
     }
 
     .photogrid {
