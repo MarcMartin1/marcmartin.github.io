@@ -556,7 +556,7 @@ i {
 @media screen and (min-width: 900px) {
 
     h1 {
-        font-size: 4.5rem;
+        font-size: 3.8rem;
     }
 
     h2 {
@@ -597,11 +597,20 @@ i {
         box-shadow: 0px 2px 2px rgba(28, 3, 3, 0.2), 0px 6px 6px rgba(39, 4, 4, 0.3);
     }
 
+    .logo {
+        background: url(svg/BUTTON.svg);
+        width: 50px;
+        height: 50px;
+        margin: 0 6rem;
+        display: inline-block;
+    }
+    
+
     .navigation__list {
         font-size: 1.333rem;
         float: right;
         position: relative;
-        margin-right: 2rem;
+        margin-right: 4rem;
         display: flex;
     }
 
@@ -610,7 +619,7 @@ i {
     }
 
     .billboard__wrapper {
-        padding: 8rem 8rem 0rem 8rem;
+        padding: 7rem 14rem 0rem 14rem;
     }
 
     .underline_two {
