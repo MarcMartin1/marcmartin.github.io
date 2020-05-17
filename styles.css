@@ -1,0 +1,984 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #FFF5F5;
+    height: 100%;
+    font-size: 18px;
+    font-family: 'Montserrat', 'Helvetica-Neueu', Helvetica, sans-serif, Arial, ;
+    width: 100%;
+}
+
+body, h1, h2, h3, p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-right: 2rem;
+}
+
+h1 {
+    font-family: 'montserrat';
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #FFF5F5;
+    text-align: center;
+}
+
+
+h2 {
+    font-family: 'montserrat';
+    font-size: 1rem;
+    color: #FFF5F5;
+    text-align: center;
+    font-weight: 100;
+}
+
+h3 {
+    font-family: 'montserrat';
+    font-size: 1.5rem;
+    color: #FFF5F5;
+    font-weight: 800;
+}
+
+h4 {
+    font-family: 'montserrat';
+    font-size: 1.5rem;
+    color: #1A0044;
+    font-weight: 800;
+}
+
+h5 {
+    font-family: 'montserrat';
+    font-size: 1rem;
+    color: #1A0044;
+    font-weight: 800;
+}
+
+h6 {
+    font-family: 'molengo';
+    font-size: 1.2rem;
+    color: #1A0044;
+    font-weight: 400;
+    margin: 0;
+}
+
+p {
+    font-family: 'molengo';
+    line-height: 1.25;
+    color: #FFF5F5;
+}
+
+a {
+    font-family: 'montserrat';
+    color: #191717;
+    text-decoration: none;
+}
+
+.header {
+    padding: 0.5rem 0;
+    position: absolute;
+    width: 100%;
+    height: 9vh;
+    z-index: 2;
+    background-color: #480808;
+    box-shadow: 0px 2px 2px rgba(28, 3, 3, 0.2), 0px 6px 6px rgba(39, 4, 4, 0.3);
+}
+
+.navigation {
+    margin-top: 1rem;
+    vertical-align: top;
+    float: right;
+    margin-right: 1rem;
+}
+
+.navigation a {
+    color: #FFF5F5;
+}
+
+.navigation__list {
+    position: relative;
+    display: flex;
+}
+
+.billboard {
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-color: #480808;
+    box-shadow: 0px 2px 2px rgba(28, 3, 3, 0.2), 0px 6px 6px rgba(43, 6, 6, 0.3);
+}
+
+.billboard__wrapper {
+    padding: 7rem 2rem 2rem 2rem;
+}
+
+.underline {
+    text-align: center;
+    padding: 1rem 0rem 0rem 0rem;
+}
+
+.underline_cs {
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+.underline_two {
+    padding-top: 3rem;
+}
+
+.billboard__wrapper:hover{
+    -webkit-animation: tiembla 0.6s infinite;
+}
+
+  @-webkit-keyframes tiembla{
+    80% { -webkit-transform:rotateZ(-0deg) scale(1.02); }
+    50% { -webkit-transform:rotateZ( 0.4deg) scale(0.98); }
+    10% { -webkit-transform:rotateZ( 0deg); }
+}
+
+.patterns {
+    background-image: url(../marcmartin1.github.io-master/svg/BACKGROUND2.svg);
+    height: 100vh;
+    width: 100%;
+}
+
+.logo {
+    background: url(../marcmartin1.github.io-master/svg/BUTTON.svg);
+    width: 50px;
+    height: 50px;
+    margin: 0 1rem;
+    display: inline-block
+}
+
+i {
+    font-style: italic;
+}
+
+.flechi .flecha {
+    display: block;
+    -webkit-animation: 2s infinite;
+}
+
+.flecha {
+    background: url(../marcmartin1.github.io-master/svg/Arrow\ 1\ \(Stroke\).svg);
+    width: 36.82px;
+    height: 20.91px;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    animation: arrow 2s ease-in-out infinite;
+    font-size:20px !important;
+}
+
+  @keyframes arrow {
+    0% {transform: translate(0px, 50px);}
+    50% {transform: translate(0px, 60px);}
+    100% {transform: translate(0px, 50px);}
+  }
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 1 2rem;
+}
+
+.project_bottom h3 {
+    float: left;
+    width: 156%;
+    padding-left: 1rem;
+}
+
+.project_bottom .content {
+    padding-top: 12rem;
+    text-align: justify;
+    width: 100%;
+}
+
+.interestellar {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    filter: brightness(0.4);
+    padding-bottom: 2rem;
+}
+
+.desc {
+    position: absolute;
+    padding-top: 8rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    top: 7rem;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    background: #191717;
+}
+
+.swiper-button-next:after, 
+.swiper-container-rtl .swiper-button-prev:after {
+    content: none;
+}
+
+.swiper-button-prev:after, 
+.swiper-container-rtl .swiper-button-next:after {
+    content: none;
+}
+
+.footers {
+    padding-top: 8rem;
+}
+
+.footer_bottom {
+    background: #191717;
+    height: 12vh;
+    width: 100%;
+    position: relative;
+}
+
+.content_footer {
+    padding: 0.5rem 0rem 0rem 8rem;
+}
+
+.logobw {
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+.mail {
+    position: absolute;
+    padding: 1rem 0rem 0rem 8rem;
+
+}
+
+.linkedin {
+    position: absolute;
+    padding: 1rem 0rem 0rem 3rem;
+}
+
+.foto {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 72px;
+    margin-left: 0;
+}
+
+.foto::before {
+    content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.aboutme {
+    position: absolute;
+    top: 80%;
+    padding-left: 2rem;
+}
+
+.textabout {
+    padding: 2rem 0rem 0rem 0rem;
+    color: #191717;
+}
+
+.textabout p {
+    color: #191717;
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+.titleabout {
+    color: #191717;
+    position: relative;
+    padding: 2rem 0rem 0rem 2rem;
+}
+
+.textabout2 {
+    color: #191717;
+    position: relative;
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+.troy {
+    position: absolute;
+    padding: 1rem 0rem 0rem 17rem;
+}
+
+.billboard__img {
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 72px;
+}
+
+.billboard__img::before {
+    content:'';
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.billboard__cs__title {
+    top: 30%;
+    padding: 0rem 1rem 0rem 1rem;
+    position: absolute;
+}
+
+.billboard__cs__title_flip {
+    top: 30%;
+    padding-left: 7rem;
+    position: absolute;
+}
+
+.title_cs {
+    padding: 2rem 0rem 0rem 2rem;
+}
+
+.title_cs_obj {
+    padding: 0rem 0rem 0rem 2rem;
+}
+
+.title_cs_archi {
+    padding: 0rem 0rem 0rem 2rem;
+}
+
+.text_cs {
+    color: #1A0044;
+    position: relative;
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+.text_cs_st {
+    color: #1A0044;
+    position: relative;
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+.text_cs_obj {
+    color: #1A0044;
+    position: relative;
+    padding: 0rem 2rem 4rem 2rem;
+}
+
+.text_cs_archi {
+    color: #1A0044;
+    position: relative;
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+.text_cs_style {
+    color: #1A0044;
+    position: relative;
+    padding: 1rem 2rem 0rem 2rem;
+}
+
+.first_img {
+    position: relative;
+}
+
+.first_img_st {
+    position: relative;
+    margin: auto;
+    padding: 3rem 1rem 2rem 0rem;
+}
+
+.second_img {
+    padding: 3rem 0rem 5rem 0rem;
+}
+
+.wire_img {
+    padding: 1rem 2rem 2rem 1.2rem;
+}
+
+.wire_img_flip {
+    margin: auto;
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+.wire_img_travel {
+    margin: auto;
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.conclu_img {
+    margin: auto;
+}
+
+.style_img_colour {
+    padding: 1rem 2rem 1rem 2rem;
+    content: url(../marcmartin1.github.io-master/img/colorsmobilecat.png);
+}
+
+.style_img_typo {
+    padding: 1rem 2rem 1rem 2rem;
+    content: url(../marcmartin1.github.io-master/img/typomobilecat.png);
+}
+
+.style_img_but {
+    padding: 1rem 2rem 1rem 2rem;
+    content: url(../marcmartin1.github.io-master/img/buttonsmobilecat.png);
+}
+
+.style_img_colour_st {
+    padding: 1rem 2rem 1rem 2rem;
+    content: url(../marcmartin1.github.io-master/img/colorsmobilest.png);
+}
+
+.style_img_typo_st {
+    padding: 1rem 2rem 1rem 2rem;
+    content: url(../marcmartin1.github.io-master/img/typomobilrst.png);
+}
+
+.style_img_but_st {
+    padding: 1rem 2rem 1rem 2rem;
+    content: url(../marcmartin1.github.io-master/img/buttonsmobilest.png);
+}
+
+.style_img_colour_flip {
+    padding: 1rem 2rem 1rem 2rem;
+    content: url(../marcmartin1.github.io-master/img/colorsmobileconseq.png);
+}
+
+.style_img_typo_flip {
+    padding: 1rem 2rem 1rem 2rem;
+    content: url(../marcmartin1.github.io-master/img/typomobileconseq.png);
+}
+
+.style_img_but_flip {
+    padding: 1rem 2rem 1rem 2rem;
+    content: url(../marcmartin1.github.io-master/img/buttonsmobileconseq.png);
+}
+
+.role{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.role li{
+    margin: 0rem 1.3rem 0rem 1.3rem;
+}
+
+.role_desc {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.role_desc li{
+    margin: 0rem 1rem 0rem 0rem;
+}
+
+.mobile_img {
+    padding: 1rem 5rem 0rem 5rem;
+}
+
+.mobile_img2 {
+    margin: auto;
+}
+
+.mobile_img3 {
+    padding: 2rem 2rem 1rem 0rem;
+}
+
+.mobile_img1_cat {
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.mobile_img2_cat {
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+.mobile_img3_cat {
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+.mobile_img1_flip {
+    padding: 2rem 3rem 0rem 3rem;
+}
+
+.mobile_img2_flip {
+    padding: 0rem 3rem 0rem 3rem;
+}
+
+.mobile_img3_flip {
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+.next_img {
+    max-width: 70%;
+    position: relative;
+    padding: 4rem 1rem 0rem 7rem;
+}
+
+.up_img {
+    max-width: 98%;
+    position: absolute;
+    padding: 4rem 2rem 0rem 17rem;
+}
+
+.photogrid {
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+.photogridul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photography {
+    margin: auto;
+    padding: 1rem 0rem 0rem 0rem;
+}
+
+@media screen and (min-width: 900px) {
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    h2 {
+        font-size: 1.333rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    h5 {
+        padding-top: 1rem;
+    }
+
+    h6 {
+        margin: 0;
+    }
+
+    p {
+        font-size: 1.333rem;
+    }
+
+    a {
+        transition: ease-in-out .5s;
+    }
+
+    a:hover {
+        font-size: 1.5rem;
+    }
+
+    .header {
+        padding: 0.5rem 0;
+        position: absolute;
+        width: 100%;
+        height: 12vh;
+        z-index: 1;
+        background-color: #480808;
+        box-shadow: 0px 2px 2px rgba(28, 3, 3, 0.2), 0px 6px 6px rgba(39, 4, 4, 0.3);
+    }
+
+    .navigation__list {
+        font-size: 1.333rem;
+        float: right;
+        position: relative;
+        margin-right: 2rem;
+        display: flex;
+    }
+
+    .wrapper {
+        padding: 1 2rem;
+    }
+
+    .billboard__wrapper {
+        padding: 8rem 8rem 0rem 8rem;
+    }
+
+    .underline_two {
+        padding-top: 3rem;
+    }
+
+    .interestellar {
+        position: relative;
+        display: block;
+        margin: auto;
+        filter: brightness(0.4);
+        width: 60%;
+        padding-bottom: 4rem;
+    }
+
+    .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+        background: #191717;
+        bottom: 50px;
+    
+    }
+    .swiper-button-next:after, 
+    .swiper-container-rtl .swiper-button-prev:after {
+        content: none;
+    }
+    
+    .swiper-button-prev:after, 
+    .swiper-container-rtl .swiper-button-next:after {
+        content: none;
+    }
+
+    .project_bottom .content {
+        padding-left: 8rem;
+        padding-top: 12rem;
+    }
+
+    .desc {
+        padding-top: 11rem;
+        padding-left: 18rem;
+        padding-right: 30rem;
+    }
+
+    .foto {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        margin-top: 72px;
+    }
+    
+    .foto::before {
+        content:'';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0,0,0,0.6);
+    }
+
+    .aboutme {
+        position: absolute;
+        top: 10%;
+        padding-left: 12rem;
+    }
+    
+    .textabout {
+        position: absolute;
+        top: 35%;
+        padding-left: 10rem;
+        padding-right: 25rem;
+    }
+
+    .textabout p {
+        color: #FFF5F5;
+    }
+
+    .titleabout {
+        color: #191717;
+        position: relative;
+        padding: 4rem 34rem 0rem 12rem;
+    }
+
+    .textabout2 {
+        color: #191717;
+        position: relative;
+        padding: 0rem 34rem 2rem 12rem;
+    }
+
+    .troy {
+        position: absolute;
+        top: 25%;
+        padding-left: 33rem;
+    }
+
+    .billboard__cs__title {
+        top: 80%;
+        padding-left: 6rem;
+        position: absolute;
+    }
+
+    .billboard__cs__title_flip {
+        top: 80%;
+        padding-left: 6rem;
+        position: absolute;
+    }
+
+
+    .billboard__img {
+        position: relative;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .billboard__img::before {
+        content:'';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0,0,0,0.6);
+    }
+
+    .title_cs {
+        padding: 6rem 0rem 0rem 6rem;
+    }
+
+    .title_cs_obj {
+        padding: 6rem 0rem 0rem 6rem;
+    }
+
+    .title_cs_archi {
+        padding: 0rem 0rem 0rem 6rem;
+    }
+
+    .text_cs {
+        color: #1A0044;
+        position: absolute;
+        padding: 0rem 34rem 2rem 10rem;
+    }
+
+    .text_cs_st {
+        color: #1A0044;
+        position: relative;
+        padding: 1rem 34rem 2rem 10rem;
+    }
+
+    .text_cs_obj {
+        color: #1A0044;
+        position: relative;
+        padding: 1rem 34rem 6rem 10rem;
+    }
+
+    .text_cs_archi {
+        color: #1A0044;
+        position: relative;
+        padding: 1rem 34rem 2rem 10rem;
+    }
+
+    .text_cs_style {
+        color: #1A0044;
+        position: relative;
+        padding: 1rem 34rem 2rem 10rem;
+    }
+
+    .first_img {
+        float: right;
+    }
+
+    .first_img_st {
+        position: relative;
+        float: right;
+        padding: 0rem 6rem 0rem 30rem;
+    }
+
+    .first_img_flip {
+        position: relative;
+        float: right;
+        padding: 0rem 8rem 0rem 43rem;
+    }
+
+    .second_img {
+        padding-left: 30rem;
+    }
+
+    .wire_img {
+        float: left;
+        padding: 2rem 0rem 3rem 5rem;
+    }
+
+    .wire_img_flip {
+        margin: auto;
+        padding: 2rem 6rem 3rem 5rem;
+    }
+
+    .conclu_img {
+        display: block;
+        padding: 2rem 8rem 3rem 8rem;
+    }
+
+    .style_img_colour {
+        padding: 0rem 10rem 3rem 10rem;
+        content: url(../marcmartin1.github.io-master/img/colors.png);
+    }
+
+    .style_img_typo {
+        padding: 0rem 10rem 3rem 10rem;
+        content: url(../marcmartin1.github.io-master/img/typo.png);
+    }
+
+    .style_img_but {
+        padding: 0rem 10rem 3rem 10rem;
+        content: url(../marcmartin1.github.io-master/img/buttons.png);
+    }
+
+    .style_img_colour_st {
+        padding: 0.5rem 10rem 3rem 10rem;
+        content: url(../marcmartin1.github.io-master/img/coloursdeskst.png);
+    }
+    
+    .style_img_typo_st {
+        padding: 0.5rem 10rem 3rem 10rem;
+        content: url(../marcmartin1.github.io-master/img/typodeskst.png);
+    }
+    
+    .style_img_but_st {
+        padding: 0.5rem 10rem 3rem 10rem;
+        content: url(../marcmartin1.github.io-master/img/buttonsdeskst.png);
+    }
+
+    .style_img_colour_flip {
+        padding: 0.5rem 10rem 3rem 10rem;
+        content: url(../marcmartin1.github.io-master/img/coloursdeskconseq.png);
+    }
+    
+    .style_img_typo_flip {
+        padding: 0.5rem 10rem 3rem 10rem;
+        content: url(../marcmartin1.github.io-master/img/typodeskconseq.png);
+    }
+    
+    .style_img_but_flip {
+        padding: 0.5rem 10rem 3rem 10rem;
+        content: url(../marcmartin1.github.io-master/img/buttonsdeskconseq.png);
+    }
+
+    .mobile_img {
+        padding: 0rem 8rem 0rem 50rem;
+        position: absolute;
+    }
+
+    .mobile_img2 {
+        padding-top: 28rem;
+        margin: auto;
+        position: relative;
+    }
+
+    .mobile_img3 {
+        padding: 12rem 30rem 0rem 0rem;
+        position: absolute;
+    }
+
+    .mobile_img1_cat {
+        padding: 0rem 8rem 0rem 43rem;
+        position: relative;
+    }
+
+    .mobile_img2_cat {
+        padding: 9.5rem 0rem 0rem 38rem;
+        position: relative;
+    }
+
+    .mobile_img3_cat {
+        padding: 0rem 0rem 0rem 6rem;
+        position: absolute;
+    }
+
+    .mobile_img1_flip {
+        padding: 0rem 0rem 0rem 45rem;
+        position: absolute;
+    }
+
+    .mobile_img2_flip {
+        padding: 76rem 0rem 0rem 45rem;
+        position: relative;
+    }
+
+    .mobile_img3_flip {
+        padding: 22rem 0rem 0rem 0rem;
+        position: absolute;
+    }
+
+    .role {
+        position: relative;
+        padding: 0rem 4rem 0rem 4rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .role li{
+        margin: 0rem 6rem 0rem 6rem;
+    }
+
+    .role_desc {
+        color: #1A0044;
+        position: relative;
+        padding: 0rem 0rem 1rem 0rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .role_desc li{
+        margin: 0rem 5rem 0rem 2.5rem;
+    }
+
+    .next_img {
+        padding: 6rem 0rem 8rem 30.5rem;
+        position: relative;
+    }
+
+    .up_img {
+        position: absolute;
+        padding: 6rem 6rem 6rem 60rem;
+    }
+
+    .photogrid {
+        padding: 0rem 4rem 0rem 4rem;
+    }
+
+    .photogridul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .photography {
+        margin: auto;
+        padding: 1rem 0rem 0rem 0rem;
+    }
+
+    .footer_bottom {
+        background: #191717;
+        height: 20vh;
+        width: 100%;
+        margin-top: -0.5rem;
+        position: relative;
+        bottom: 0px;
+    }
+
+    .content_footer {
+        float: right;
+        padding: 0.5rem 10rem 0rem 0rem;
+    }
+
+    .mail {
+        position: absolute;
+        padding: 1rem 0rem 0rem 7rem;
+    }
+
+    .linkedin {
+        position: absolute;
+        padding: 1rem 0rem 0rem 0rem;
+    }
+
+    .logobw {
+        padding: 2rem 0rem 0rem 10rem;
+    }
+
+}
+
+
+
