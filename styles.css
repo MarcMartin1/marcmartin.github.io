@@ -149,13 +149,13 @@ a {
 }
 
 .patterns {
-    background-image: url(../marcmartin1.github.io-master/svg/BACKGROUND2.svg);
+    background-image: url(svg/BACKGROUND2.svg);
     height: 100vh;
     width: 100%;
 }
 
 .logo {
-    background: url(../marcmartin1.github.io-master/svg/BUTTON.svg);
+    background: url(svg/BUTTON.svg);
     width: 50px;
     height: 50px;
     margin: 0 1rem;
@@ -172,7 +172,7 @@ i {
 }
 
 .flecha {
-    background: url(../marcmartin1.github.io-master/svg/Arrow\ 1\ \(Stroke\).svg);
+    background: url(svg/Arrow\ 1\ \(Stroke\).svg);
     width: 36.82px;
     height: 20.91px;
     background-repeat: no-repeat;
@@ -426,47 +426,47 @@ i {
 
 .style_img_colour {
     padding: 1rem 2rem 1rem 2rem;
-    content: url(../marcmartin1.github.io-master/img/colorsmobilecat.png);
+    content: url(img/colorsmobilecat.png);
 }
 
 .style_img_typo {
     padding: 1rem 2rem 1rem 2rem;
-    content: url(../marcmartin1.github.io-master/img/typomobilecat.png);
+    content: url(img/typomobilecat.png);
 }
 
 .style_img_but {
     padding: 1rem 2rem 1rem 2rem;
-    content: url(../marcmartin1.github.io-master/img/buttonsmobilecat.png);
+    content: url(img/buttonsmobilecat.png);
 }
 
 .style_img_colour_st {
     padding: 1rem 2rem 1rem 2rem;
-    content: url(../marcmartin1.github.io-master/img/colorsmobilest.png);
+    content: url(img/colorsmobilest.png);
 }
 
 .style_img_typo_st {
     padding: 1rem 2rem 1rem 2rem;
-    content: url(../marcmartin1.github.io-master/img/typomobilrst.png);
+    content: url(img/typomobilrst.png);
 }
 
 .style_img_but_st {
     padding: 1rem 2rem 1rem 2rem;
-    content: url(../marcmartin1.github.io-master/img/buttonsmobilest.png);
+    content: url(img/buttonsmobilest.png);
 }
 
 .style_img_colour_flip {
     padding: 1rem 2rem 1rem 2rem;
-    content: url(../marcmartin1.github.io-master/img/colorsmobileconseq.png);
+    content: url(img/colorsmobileconseq.png);
 }
 
 .style_img_typo_flip {
     padding: 1rem 2rem 1rem 2rem;
-    content: url(../marcmartin1.github.io-master/img/typomobileconseq.png);
+    content: url(img/typomobileconseq.png);
 }
 
 .style_img_but_flip {
     padding: 1rem 2rem 1rem 2rem;
-    content: url(../marcmartin1.github.io-master/img/buttonsmobileconseq.png);
+    content: url(img/buttonsmobileconseq.png);
 }
 
 .role{
@@ -814,47 +814,47 @@ i {
 
     .style_img_colour {
         padding: 0rem 10rem 3rem 10rem;
-        content: url(../marcmartin1.github.io-master/img/colors.png);
+        content: url(img/colors.png);
     }
 
     .style_img_typo {
         padding: 0rem 10rem 3rem 10rem;
-        content: url(../marcmartin1.github.io-master/img/typo.png);
+        content: url(img/typo.png);
     }
 
     .style_img_but {
         padding: 0rem 10rem 3rem 10rem;
-        content: url(../marcmartin1.github.io-master/img/buttons.png);
+        content: url(img/buttons.png);
     }
 
     .style_img_colour_st {
         padding: 0.5rem 10rem 3rem 10rem;
-        content: url(../marcmartin1.github.io-master/img/coloursdeskst.png);
+        content: url(img/coloursdeskst.png);
     }
     
     .style_img_typo_st {
         padding: 0.5rem 10rem 3rem 10rem;
-        content: url(../marcmartin1.github.io-master/img/typodeskst.png);
+        content: url(img/typodeskst.png);
     }
     
     .style_img_but_st {
         padding: 0.5rem 10rem 3rem 10rem;
-        content: url(../marcmartin1.github.io-master/img/buttonsdeskst.png);
+        content: url(img/buttonsdeskst.png);
     }
 
     .style_img_colour_flip {
         padding: 0.5rem 10rem 3rem 10rem;
-        content: url(../marcmartin1.github.io-master/img/coloursdeskconseq.png);
+        content: url(img/coloursdeskconseq.png);
     }
     
     .style_img_typo_flip {
         padding: 0.5rem 10rem 3rem 10rem;
-        content: url(../marcmartin1.github.io-master/img/typodeskconseq.png);
+        content: url(img/typodeskconseq.png);
     }
     
     .style_img_but_flip {
         padding: 0.5rem 10rem 3rem 10rem;
-        content: url(../marcmartin1.github.io-master/img/buttonsdeskconseq.png);
+        content: url(img/buttonsdeskconseq.png);
     }
 
     .mobile_img {
